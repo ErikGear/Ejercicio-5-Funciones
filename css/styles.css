@@ -1,0 +1,40 @@
+
+.semaforo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    margin: 0 auto;
+
+    width: 300px;
+    height: 800px;
+
+    background-color: #354f52;
+    border-radius: 10px;
+}
+
+.caja {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 80%;
+    height: 30%;
+
+    border-radius: 50%;
+
+    border: 2px solid #000000;
+}
+
+.rojo {   
+    background-color: rgba(217, 4, 41, 0.2);
+}
+.amarillo {
+    
+    background-color: rgba(252, 243, 0, 0.2);
+}
+.verde {
+    background-color: rgba(36, 130, 50, 0.2);
+}
+
